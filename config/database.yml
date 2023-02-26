@@ -1,0 +1,10 @@
+default: 
+  adaptor: sqlite3
+  timeout: 5000
+
+development:
+  <<: *default
+  database: db/todos-dev.sqlite3
+production:
+  <<: *default
+  database: db/todos-prod.sqlite3
