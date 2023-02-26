@@ -5,6 +5,7 @@ gem 'rake', '~> 13.0', '>= 13.0.6'
 gem 'sqlite3', '~> 1.6', '>= 1.6.1'
 gem 'sinatra-activerecord', '~> 2.0', '>= 2.0.26'
 gem 'puma', '~> 6.1'
+gem 'require_all', '~>3.0'
 group :develpment do
     gem 'rerun', '~> 0.14.0'
 end
