@@ -1,7 +1,7 @@
 class TodoController < Sinatra::Base
 
     get '/hello' do
-        "Welcome to TodoController"
+        "Our very first controller"
     end
 
 end
